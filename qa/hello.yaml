@@ -5,6 +5,7 @@ metadata:
   namespace: lasample
   labels:
     app: hello
+
 spec:
   selector:
     matchLabels:
@@ -16,4 +17,4 @@ spec:
     spec:
       containers:
       - name: hello
-        image: zgura/gitops:hellov1.2
+        image: acgtes/gitops:hellov1.1
